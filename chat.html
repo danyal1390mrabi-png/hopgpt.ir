@@ -1,0 +1,19 @@
+<!doctype html><html lang="fa" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>چت | {S}</title>
+<link rel="icon" type="image/png" href="img/favicon.png"><link rel="apple-touch-icon" href="img/icon-192.png"><link rel="stylesheet" href="css/base.css"><link rel="stylesheet" href="css/chat.css"><script src="js/auth.js"></script></head><body>
+<div id="app">
+<header><button class="ib" onclick="side(1)" title="منو و تاریخچه">☰</button>
+<a id="modelbtn" href="models.html" title="تغییر مدل (چت جدید باز می‌شود)"><span class="av sm" id="hav"></span><b id="hname"></b><span class="sw">تغییر مدل ⌄</span></a>
+<button class="ib" onclick="newChat()" title="چت جدید">✎</button></header>
+<main id="main"><div id="welcome"><canvas id="sphere"></canvas><h2 id="greet"></h2><div id="samples"></div></div><div id="msgs"></div></main>
+<footer><div class="chips" id="chips"></div><div id="thumb"></div>
+<div class="bar"><button class="ib" id="attach" onclick="$('file').click()" title="ارسال عکس">📎</button><input type="file" id="file" accept="image/*" hidden>
+<textarea id="inp" rows="1" placeholder=""></textarea>
+<button id="send" onclick="send()">➤</button></div>
+<div class="note" id="note"></div></footer></div>
+<div id="shade" onclick="side(0)"></div>
+<div id="side"><img class="side-logo" src="img/logo-512.png" alt="HopGPT"><a class="h" href="index.html">🏠 خانه</a><a class="h" href="models.html">🧠 مدل‌ها</a><button class="h" onclick="hopLogout()">🚪 خروج از حساب</button><hr style="border-color:var(--line)">
+<button class="h" onclick="newChat()"><b>+ چت جدید</b></button><div id="hist"></div>
+<div class="credit">ساخته شده توسط <a href="https://danyalcode.ir" target="_blank" rel="noopener">دانیال کد</a> · danyalcode.ir</div></div>
+<script src="js/config.js"></script><script src="js/data.js"></script><script src="js/common.js"></script><script src="js/sphere.js"></script><script src="js/chat.js"></script>
+</body></html>

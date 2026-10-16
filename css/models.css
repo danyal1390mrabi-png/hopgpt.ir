@@ -1,0 +1,15 @@
+.head{text-align:center;margin:20px 0}.head h1{font-weight:700;font-size:42px;margin:0 0 6px;background:linear-gradient(90deg,var(--ac),var(--ac2));-webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent}.head p{color:var(--mu);margin:0}
+#q{display:block;margin:16px auto 0;width:min(100%,420px);background:var(--bg2);border:1px solid var(--line);border-radius:14px;padding:12px 16px;color:var(--tx);font-family:inherit;outline:0;box-shadow:inset 0 2px 8px rgba(0,0,0,.25)}
+#q:focus{border-color:var(--ac)}
+.tabs{display:flex;gap:6px;overflow-x:auto;margin:22px 0;padding:4px}
+.tab{background:var(--bg2);border:1px solid var(--line);border-radius:22px;padding:8px 18px;white-space:nowrap;font-size:14px;box-shadow:0 6px 12px -8px var(--sh),inset 0 1px 0 var(--hi);transition:.15s}
+.tab:hover{transform:translateY(-1px)}.tab.on{background:linear-gradient(180deg,var(--ac),var(--ac2));color:var(--act);border-color:transparent}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(250px,1fr));gap:16px}
+.card{padding:16px;display:flex;flex-direction:column;gap:10px}
+.card .t{display:flex;gap:10px;align-items:center}.card small{color:var(--mu)}
+.card .ex{color:var(--mu);font-size:12.5px;font-style:normal;line-height:1.8;min-height:44px;border-right:3px solid var(--ac);padding-right:9px}
+.sel{background:linear-gradient(180deg,var(--card),var(--bg2));border:1px solid var(--line);border-radius:12px;padding:10px;font-size:13.5px;box-shadow:0 8px 14px -10px var(--sh),0 2px 0 rgba(0,0,0,.2),inset 0 1px 0 var(--hi);transition:.15s}
+.sel:hover{background:linear-gradient(180deg,var(--ac),var(--ac2));color:var(--act);border-color:transparent;transform:translateY(-1px)}
+.sel:active{transform:translateY(2px)}
+
+.caps{display:flex;gap:5px;flex-wrap:wrap;margin:8px 0 2px}.caps span{font-size:11px;padding:2px 8px;border-radius:20px;border:1px solid var(--line);color:var(--mu);background:var(--bg2)}
